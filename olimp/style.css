@@ -1,0 +1,21 @@
+.lang_switcher__flag_wrapper {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 2px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lang_switcher__flag {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* флаг России */
+.lang_switcher__flag-ru {
+  background-image: url("img/flag_ru.png"); /* добавь сюда путь к файлу */
+}
